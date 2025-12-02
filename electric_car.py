@@ -4,7 +4,7 @@ from rechargeable import Rechargeable
 # here we have a ElectricCar class that inherits from Vehicle
 class ElectricCar(Vehicle, Rechargeable):
     def calculate_insurance_cost(self):
-        age = 2024 - self.year
+        age = 2025 - self.year
         return 2000 if age > 5 else 1000
     
     def recharge(self):

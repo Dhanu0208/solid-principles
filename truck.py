@@ -4,7 +4,7 @@ from fuleable import Fuleable
 # here we have a Truck class that inherits from Vehicle
 class Truck(Vehicle, Fuleable):
     def calculate_insurance_cost(self):
-        age = 2024 - self.year
+        age = 2025 - self.year
         return 1500 if age > 8 else 700
     
     def refuel(self):
